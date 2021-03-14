@@ -1,7 +1,5 @@
-@extends('base')
+@extends('layouts.base',  ['title' => 'Hello Isaac'])
 
-
-@section('title', 'Hello |'.config('project.variable'))
 
 @section('content')
 <img src=" {{ asset('images/flutter_location.png') }}" alt="Package flutter location">

@@ -1,6 +1,6 @@
-@extends('base')
+@extends('layouts.base', ['title' => 'Hello Isaac'])
 
-@section('title', config('app.name'))
+
 
 @section('content')
 <img src="{{ asset('images/parfums.jpg') }}" alt="Les parfums">
